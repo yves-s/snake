@@ -99,18 +99,7 @@ class Snake {
             return;
         }
 
-        let addToBody = true;
-        const firstStomachSegment = this._stomach[0];
-
-        this._body.forEach((segment) => {
-            if (segment.getX() === firstStomachSegment.getX() && segment.getY() === firstStomachSegment.getY()) {
-                addToBody = false;
-            }
-        });
-
-        if (addToBody) {
-            this._body.push(firstStomachSegment);
-            this._stomach.splice(0, 1);
-        }
+        this._body.push(this._stomach[0]);
+        this._stomach.splice(0, 1);
     }
 }
