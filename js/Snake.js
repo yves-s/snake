@@ -1,5 +1,5 @@
 class Snake {
-    constructor(body, color = colorSnake) {
+    constructor(body, color) {
         this._body = body;
         this._color = color;
         this._stomach = [];
