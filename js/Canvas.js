@@ -56,3 +56,5 @@ class Canvas {
         this._context.clearRect(0, 0, this._element.height, this._element.height);
     }
 }
+
+export default Canvas;

@@ -1,5 +1,5 @@
 class Snake {
-    constructor(body, color) {
+    constructor(body, color = colorSnake) {
         this._body = body;
         this._color = color;
         this._stomach = [];
@@ -103,3 +103,5 @@ class Snake {
         this._stomach.splice(0, 1);
     }
 }
+
+export default Snake;

@@ -1,3 +1,7 @@
+import Segment from './Segment';
+import Snake from './Snake';
+import Canvas from './Canvas';
+
 // Configuration
 const snakeColor = '#696969';
 const foodColor = '#FF0000';

@@ -1,0 +1,15 @@
+{
+  "name": "snake",
+  "version": "0.1.0",
+  "main": "game.js",
+  "repository": "https://github.com/rkulik/snake.git",
+  "author": "Yves Schleich <yves.schleich@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

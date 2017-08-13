@@ -39,3 +39,5 @@ class Segment {
         this._color = color;
     }
 }
+
+export default Segment;
